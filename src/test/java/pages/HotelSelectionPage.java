@@ -1,5 +1,4 @@
 package pages;
-
 import helpers.BaseHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -22,7 +21,6 @@ public class HotelSelectionPage extends BaseHelper {
         wdWait.until(ExpectedConditions.visibilityOf(hotelsListWrapper));
         WebElement bestRatedHotel = driver.findElement(By.className("sr_card_photo_wrapper"));
         bestRatedHotel.click();
-
     }
     public void selectHotel(){
         chooseDesiredHotel();

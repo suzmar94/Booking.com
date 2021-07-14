@@ -27,9 +27,7 @@ public class BookingHomePage extends BaseHelper {
     }
     private void clickOnSearchButton(){
         searchButton.click();
-
     }
-
     public void bookingMain(){
         navigateToPage();
         enterDestination();

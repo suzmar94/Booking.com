@@ -1,5 +1,4 @@
 package pages;
-
 import helpers.BaseHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,19 +13,14 @@ public class ParisHotelsPage extends BaseHelper {
 
     @FindBy(className="bui-calendar__control--next")
     WebElement nextButton;
-
     @FindBy(xpath = "/html/body/div[4]/div/div[3]/div[1]/div[2]/div[1]/div[1]/form/div[3]/div/div[2]/div/div/div[3]/div[2]/table/tbody/tr[4]/td[2]")
     WebElement date19;
-
     @FindBy(xpath = "/html/body/div[4]/div/div[3]/div[1]/div[2]/div[1]/div[1]/form/div[3]/div/div[1]/div[2]/div/div/div/div[2]")
     WebElement endDateTable;
-
     @FindBy(xpath = "/html/body/div[4]/div/div[3]/div[1]/div[2]/div[1]/div[1]/form/div[3]/div/div[2]/div/div/div[3]/div[1]/table/tbody/tr[5]/td[1]")
     WebElement date25;
-
     @FindBy(xpath = "/html/body/div[4]/div/div[3]/div[1]/div[2]/div[1]/div[1]/form/div[4]/div/div/div/div[2]/div[1]")
     WebElement childrenBox;
-
     @FindBy(className = "sb-searchbox__button")
     WebElement searchBtn;
 
@@ -70,6 +64,5 @@ public class ParisHotelsPage extends BaseHelper {
         boxChildren();
         childrenNumber();
         searchButton();
-
     }
 }
